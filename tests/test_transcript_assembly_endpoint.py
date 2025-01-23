@@ -30,16 +30,36 @@ def test_assemble_transcript_endpoint_success(client):
                     {"id": "2", "name": "Jane Smith"}
                 ]
             }
+        },
+        "intelligence": {
+            "chapters": {
+                "data": [{"title": "Introduction", "start": 0}]
+            },
+            "summaryTabSections": [
+                {
+                    "section": {"title": "Outcomes"},
+                    "data": [{"outcome": "Achieve project goals"}]
+                },
+                {
+                    "section": {"title": "Action Items"},
+                    "data": [{"action": "Follow up with team"}]
+                }
+            ]
         }
     }
     
     with patch('api.index.validate_and_fetch_url', return_value=sample_json):
         response = client.post('/transcript/assemble', json={"url": url})
         assert response.status_code == 200
-        assert response.json == [
-            {"speaker": "John Doe", "speakerId": "1", "transcript": "Hello world", "startMs": 0, "endMs": 5000},
-            {"speaker": "Jane Smith", "speakerId": "2", "transcript": "Goodbye world", "startMs": 6000, "endMs": 10000}
-        ]
+        assert response.json == {
+            "transcript": [
+                {"speaker": "John Doe", "speakerId": "1", "transcript": "Hello world", "startMs": 0, "endMs": 5000},
+                {"speaker": "Jane Smith", "speakerId": "2", "transcript": "Goodbye world", "startMs": 6000, "endMs": 10000}
+            ],
+            "chapters": [{"title": "Introduction", "start": 0}],
+            "outcomes": [{"outcome": "Achieve project goals"}],
+            "action_items": [{"action": "Follow up with team"}]
+        }
 
 def test_assemble_transcript_endpoint_invalid_url(client):
     url = "invalid-url"

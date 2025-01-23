@@ -23,6 +23,25 @@ def validate_and_fetch_url(url):
     except Exception as e:
         raise ValueError(f"Error fetching or parsing URL: {e}")
 
+def extract_metadata(json_data):
+    try:
+        intelligence = json_data.get('intelligence', {})
+        
+        chapters = intelligence.get('chapters', {}).get('data', [])
+        
+        outcomes = []
+        action_items = []
+        
+        for section in intelligence.get('summaryTabSections', []):
+            if section.get('section', {}).get('title') == 'Outcomes':
+                outcomes = section.get('data', [])
+            elif section.get('section', {}).get('title') == 'Action Items':
+                action_items = section.get('data', [])
+        
+        return chapters, outcomes, action_items
+    except KeyError as e:
+        raise ValueError(f"Error extracting metadata: {e}")
+
 @app.route('/')
 def home():
     return 'Hello, World!'
@@ -51,7 +70,16 @@ def assemble_transcript_endpoint():
         
         json_data = validate_and_fetch_url(url)
         transcript = assemble_transcript(json_data)
-        return jsonify(transcript), 200
+        chapters, outcomes, action_items = extract_metadata(json_data)
+        
+        response = {
+            "chapters": chapters,
+            "outcomes": outcomes,
+            "action_items": action_items, 
+            "transcript": transcript
+        }
+        
+        return jsonify(response), 200
     except Exception as e:
         return jsonify({"error": str(e)}), 500
 
