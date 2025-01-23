@@ -1,6 +1,7 @@
 # Project Plan
 
 > **Changelog (latest update):**  
+> - Completed Step 7: Add endpoint for transcript assembly.  
 > - Incorporated answers to open questions regarding test framework, data storage, secrecy, concurrency, and the URL replacement logic.  
 > - Added "Plan" section to outline how we'll address these points in our implementation approach.
 > - Added a new "Step-by-Step Implementation Plan" section to provide a more detailed project roadmap, while preserving the existing high-level "Plan" section.
@@ -172,13 +173,13 @@ Below is a more detailed, step-by-step plan to guide development:
    - Implement the function that normalizes or replaces the query parameter with "?tab=transcript."  
    - Return HTTP 400 if the URL fails validation tests.
    - Create a new route for the URL validation function in the api folder.
-   - **Status**: Outstanding
+   - **Status**: Completed
 
 3. **HTTP Fetch & HTML Parsing**  
    - Write tests expecting a successful HTML fetch and valid meta tag extraction.  
    - Implement the fetch logic (via requests or similar library) and handle potential network errors.  
    - Parse the fetched HTML with BeautifulSoup, locating the meta tag with "grain:recording:json" content.
-   - **Status**: Outstanding
+   - **Status**: Completed
 
 4. **JSON Parsing & Error Handling**  
    - Write tests that simulate missing or malformed JSON.  
@@ -202,7 +203,7 @@ Below is a more detailed, step-by-step plan to guide development:
    - Create a new route in the api folder for the transcript assembly function.
    - Rely on the data from "(meta_transcript_output.json)" to test the transcript assembly, this should match the output from "https://grain.com/share/recording/5241a92e-1ab8-47c8-8f54-ec9f3649eac5/5lcMmg64fZU5DziAUDsBuEANYo968z0e1rBiSHVi?tab=summary"
    - Add tests for the endpoint in the tests folder.
-   - **Status**: Outstanding
+   - **Status**: Completed
 
 8. **Collect Metadata**  
    - Functionality to the transcript endpoint to collect chapters, outcomes, and action items.

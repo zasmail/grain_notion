@@ -7,17 +7,16 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 ## [Unreleased]
 
 ### Added
-- Implemented `assemble_transcript` function in `utils/transcript_utils.py` to process JSON data and assemble transcripts with speaker information and timing.
-- Added tests in `tests/test_transcript_assembly.py` to validate the functionality of `assemble_transcript`, including handling of empty data and structured output.
-- Updated project plan in `docs/project_plan.md` to include steps for adding an endpoint for transcript assembly and collecting metadata.
-- Adjusted `.gitignore` to remove unnecessary exclusions for documentation files.
+- Implemented `/transcript/assemble` endpoint in `api/index.py` to process URLs, fetch JSON data, and return structured transcripts.
+- Added tests in `tests/test_transcript_assembly_endpoint.py` to validate the functionality of the `/transcript/assemble` endpoint, including handling of valid and invalid URLs.
+- Updated project plan in `docs/project_plan.md` to reflect the completion of Step 7 and outline future steps.
 
 ### Changed
-- Refined the logic in `assemble_transcript` to correctly map indices from `results` to `speakerRanges` and include `startMs` and `endMs` in the output.
-- Updated test data and expected results in `tests/test_transcript_assembly.py` to align with the new functionality and JSON structure.
+- Refactored URL validation and JSON fetching logic into a shared function `validate_and_fetch_url` in `api/index.py`.
+- Adjusted import paths in `api/index.py` to ensure correct module loading.
 
 ### Fixed
-- Resolved issues with incorrect index mapping in `assemble_transcript` that caused errors during test execution.
+- Resolved issues with incorrect module imports that caused test failures.
 
 ---
 
