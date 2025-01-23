@@ -165,63 +165,75 @@ Below is a more detailed, step-by-step plan to guide development:
 1. **Repository Setup & Development Environment**  
    - Confirm local Python environment and install necessary dependencies (requests, BeautifulSoup, pytest, etc.).
    - Use `vercel dev` to run the local server and ensure it is ready to accept new routes or endpoints.
+   - **Status**: Completed
 
 2. **Implement TDD for URL Validation**  
    - Write tests to ensure the URL format is correct (valid vs. invalid URLs).  
    - Implement the function that normalizes or replaces the query parameter with "?tab=transcript."  
    - Return HTTP 400 if the URL fails validation tests.
    - Create a new route for the URL validation function in the api folder.
+   - **Status**: Outstanding
 
 3. **HTTP Fetch & HTML Parsing**  
    - Write tests expecting a successful HTML fetch and valid meta tag extraction.  
    - Implement the fetch logic (via requests or similar library) and handle potential network errors.  
    - Parse the fetched HTML with BeautifulSoup, locating the meta tag with "grain:recording:json" content.
+   - **Status**: Outstanding
 
 4. **JSON Parsing & Error Handling**  
    - Write tests that simulate missing or malformed JSON.  
-   - rely on the data from "(meta_tag.json)" to test the JSON parsing.
+   - Rely on the data from "(meta_tag.json)" to test the JSON parsing.
    - Implement JSON parsing, logging any errors, and returning HTTP 503 if the transcript is inaccessible.  
    - Return partial data if only some sections are malformed (if feasible).
+   - **Status**: Completed
 
 5. **Speaker Data Extraction**  
    - Write tests for "Unknown Speaker" scenarios.  
    - Implement mapping of speakerIds to speaker names, ensuring unknown speakers are labeled distinctly.
+   - **Status**: Completed
 
 6. **Transcript Assembly**  
    - Write tests covering proper word spacing, punctuation handling, and concatenation.  
    - Merge speaker ranges (timing) with the actual word data.  
    - Return clean text for each segment, removing extra spaces.
+   - **Status**: Completed
 
 7. **Add endpoint for transcript assembly**  
-    - create a new route in the api folder for the transcript assembly function.
-    - rely on the data from "(meta_transcript_output.json)" to test the transcript assembly, this should match the output from "https://grain.com/share/recording/5241a92e-1ab8-47c8-8f54-ec9f3649eac5/5lcMmg64fZU5DziAUDsBuEANYo968z0e1rBiSHVi?tab=summary"
-    - add tests for the endpoint in the tests folder. 
+   - Create a new route in the api folder for the transcript assembly function.
+   - Rely on the data from "(meta_transcript_output.json)" to test the transcript assembly, this should match the output from "https://grain.com/share/recording/5241a92e-1ab8-47c8-8f54-ec9f3649eac5/5lcMmg64fZU5DziAUDsBuEANYo968z0e1rBiSHVi?tab=summary"
+   - Add tests for the endpoint in the tests folder.
+   - **Status**: Outstanding
 
 8. **Collect Metadata**  
-    - functionality to the transcript endpoint to collect chapters, outcomes, and action items.
-        - chapters can be found under "intelligence" > "chapters" > "data". Keep the format unchanged from the original data.
-        - outcomes can be found under "intelligence" > "summaryTabSections" where the "section" > "title" is "Outcomes". Return the "data" array under "outcomes".
-        - action items can be found under "intelligence" > "summaryTabSections" where the "section" > "title" is "Action Items". Return the "data" array under "action_items".
-    - rely on the data from "(meta_tag.json)" to test the metadata collection.  
+   - Functionality to the transcript endpoint to collect chapters, outcomes, and action items.
+     - Chapters can be found under "intelligence" > "chapters" > "data". Keep the format unchanged from the original data.
+     - Outcomes can be found under "intelligence" > "summaryTabSections" where the "section" > "title" is "Outcomes". Return the "data" array under "outcomes".
+     - Action items can be found under "intelligence" > "summaryTabSections" where the "section" > "title" is "Action Items". Return the "data" array under "action_items".
+   - Rely on the data from "(meta_tag.json)" to test the metadata collection.
+   - **Status**: Outstanding
 
 9. **Structured Output Assembly**  
    - Write tests checking that each segment's JSON format matches the schema.  
    - Implement the functionality to generate line objects with incrementing transcriptIndex.  
    - Compute metadata (processing time, wordCount ignoring punctuation, speakerCount, duration).
+   - **Status**: Outstanding
 
 10. **Integrate Error Handling & Logging**  
-   - Ensure that each error path (invalid URL, network fail, missing transcript) returns a suitable HTTP code and a JSON body with error details.  
-   - Log errors for debugging while still returning stable, partial responses if possible.
+    - Ensure that each error path (invalid URL, network fail, missing transcript) returns a suitable HTTP code and a JSON body with error details.  
+    - Log errors for debugging while still returning stable, partial responses if possible.
+    - **Status**: Outstanding
 
 11. **Refinement & Additional Testing**  
-   - Expand tests to include edge cases (empty transcript, single speaker, overlapping ranges).  
-   - Verify performance for typical meeting lengths (~1 hour of audio/video).  
-   - Conduct code reviews to ensure TDD best practices are followed.
+    - Expand tests to include edge cases (empty transcript, single speaker, overlapping ranges).  
+    - Verify performance for typical meeting lengths (~1 hour of audio/video).  
+    - Conduct code reviews to ensure TDD best practices are followed.
+    - **Status**: Outstanding
 
 12. **Deployment & Post-Deployment Checks**  
     - Deploy to Vercel once the core functionality and tests pass consistently.  
     - Verify that the serverless environment resolves dependencies correctly.  
     - Conduct final checks with real Grain URLs to confirm everything is working as expected.
+    - **Status**: Outstanding
 
 > **Next Steps**: Continue to update this "Step-by-Step Implementation Plan" as new insights arise or as we adjust tasks in response to testing feedback.
 
