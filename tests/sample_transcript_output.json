@@ -1,0 +1,16 @@
+[
+    {
+        "speaker": "John Doe",
+        "speakerId": "1",
+        "transcript": "Hello world",
+        "startMs": 0,
+        "endMs": 5000
+    },
+    {
+        "speaker": "Jane Smith",
+        "speakerId": "2",
+        "transcript": "Goodbye world",
+        "startMs": 6000,
+        "endMs": 10000
+    }
+]
