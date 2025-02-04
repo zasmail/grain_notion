@@ -1,0 +1,625 @@
+[
+    {
+        "speaker": "jakob",
+        "speakerId": "2dfefb31-5a78-4a90-afe5-18fd88611f69",
+        "transcript": "Very cool.",
+        "startMs": 1920,
+        "endMs": 2536
+    },
+    {
+        "speaker": "Austin Pager",
+        "speakerId": "5c0652f0-b572-44b0-9a44-34614a4b9dec",
+        "transcript": "We're in. We're in. Fat eye. So nice. Not too far. Yeah. That's awesome. And the canopy team invest in you guys?",
+        "startMs": 2648,
+        "endMs": 12248
+    },
+    {
+        "speaker": "jakob",
+        "speakerId": "2dfefb31-5a78-4a90-afe5-18fd88611f69",
+        "transcript": "Yes, that's. They led our, our seed fund.",
+        "startMs": 12424,
+        "endMs": 15940
+    },
+    {
+        "speaker": "Austin Pager",
+        "speakerId": "5c0652f0-b572-44b0-9a44-34614a4b9dec",
+        "transcript": "Nice. Very nice. We very close friends of the canopy team. And Harry's is awesome. It sounds like you guys were pretty close with him.",
+        "startMs": 16320,
+        "endMs": 26612
+    },
+    {
+        "speaker": "jakob",
+        "speakerId": "2dfefb31-5a78-4a90-afe5-18fd88611f69",
+        "transcript": "Yeah, I mean I went to college with Harry. That's how I found cashmere. I know Harry very well.",
+        "startMs": 26736,
+        "endMs": 33640
+    },
+    {
+        "speaker": "Austin Pager",
+        "speakerId": "5c0652f0-b572-44b0-9a44-34614a4b9dec",
+        "transcript": "That's very funny. Okay, got it. And then. Okay. So they invested and then he made the introduction.",
+        "startMs": 33940,
+        "endMs": 40880
+    },
+    {
+        "speaker": "jakob",
+        "speakerId": "2dfefb31-5a78-4a90-afe5-18fd88611f69",
+        "transcript": "Yes. Yeah, they had invested I think a month or two before then he made the introduction. I've been here since October, so it's about three months at this point.",
+        "startMs": 41700,
+        "endMs": 50892
+    },
+    {
+        "speaker": "Austin Pager",
+        "speakerId": "5c0652f0-b572-44b0-9a44-34614a4b9dec",
+        "transcript": "Nice. How's it been going?",
+        "startMs": 51076,
+        "endMs": 52966
+    },
+    {
+        "speaker": "jakob",
+        "speakerId": "2dfefb31-5a78-4a90-afe5-18fd88611f69",
+        "transcript": "It's awesome. No complaints. I'm loving it. Gets better by the day. So it's all. All good stuff.",
+        "startMs": 53118,
+        "endMs": 58806
+    },
+    {
+        "speaker": "Austin Pager",
+        "speakerId": "5c0652f0-b572-44b0-9a44-34614a4b9dec",
+        "transcript": "Awesome. I also invite Lauren from our sales team who joined us. I think Lauren might have. No, might very coincidentally might know one of your founders or know of what's the kind of connection through school. High school.",
+        "startMs": 58998,
+        "endMs": 78370
+    },
+    {
+        "speaker": "Lauren Becker",
+        "speakerId": "20c61c11-20dd-49b9-ba37-ffa9c9a51920",
+        "transcript": "Yeah, I went to the same high school and middle school as Farbod. I knew his sister. Yeah. Oh, okay.",
+        "startMs": 78690,
+        "endMs": 85498
+    },
+    {
+        "speaker": "jakob",
+        "speakerId": "2dfefb31-5a78-4a90-afe5-18fd88611f69",
+        "transcript": "Yeah, he'll be. He's joined. He's just hung up on a internal call. So he'll be joining any. Any minute now.",
+        "startMs": 85514,
+        "endMs": 90602
+    },
+    {
+        "speaker": "Lauren Becker",
+        "speakerId": "20c61c11-20dd-49b9-ba37-ffa9c9a51920",
+        "transcript": "Nice. I know. I got added to the invite and I was like, is that the same?",
+        "startMs": 90706,
+        "endMs": 94870
+    },
+    {
+        "speaker": "jakob",
+        "speakerId": "2dfefb31-5a78-4a90-afe5-18fd88611f69",
+        "transcript": "Yeah, yeah.",
+        "startMs": 95330,
+        "endMs": 96730
+    },
+    {
+        "speaker": "Lauren Becker",
+        "speakerId": "20c61c11-20dd-49b9-ba37-ffa9c9a51920",
+        "transcript": "Small world.",
+        "startMs": 96810,
+        "endMs": 97754
+    },
+    {
+        "speaker": "jakob",
+        "speakerId": "2dfefb31-5a78-4a90-afe5-18fd88611f69",
+        "transcript": "Indeed. So you're from the Bay Area?",
+        "startMs": 97922,
+        "endMs": 100070
+    },
+    {
+        "speaker": "Lauren Becker",
+        "speakerId": "20c61c11-20dd-49b9-ba37-ffa9c9a51920",
+        "transcript": "Yeah, gotcha. And yeah, I've been some for the holidays. It's nice to be back. But.",
+        "startMs": 100370,
+        "endMs": 108198
+    },
+    {
+        "speaker": "Austin Pager",
+        "speakerId": "5c0652f0-b572-44b0-9a44-34614a4b9dec",
+        "transcript": "Yeah, yeah, we can give him a. Give him a sec. I was on your website trying to figure out exactly what you all do. So maybe what I was thinking is we could do like a demo swap. It sounds like you'll have like a web based application. We'll give for about a second here. Give him a sec. Hey man.",
+        "startMs": 108254,
+        "endMs": 134191
+    },
+    {
+        "speaker": "farbod",
+        "speakerId": "03e9066d-739c-41d6-9091-5d40af91ca71",
+        "transcript": "What's up guys? How are you doing?",
+        "startMs": 134215,
+        "endMs": 136527
+    },
+    {
+        "speaker": "Austin Pager",
+        "speakerId": "5c0652f0-b572-44b0-9a44-34614a4b9dec",
+        "transcript": "Well, how are you?",
+        "startMs": 136583,
+        "endMs": 137711
+    },
+    {
+        "speaker": "farbod",
+        "speakerId": "03e9066d-739c-41d6-9091-5d40af91ca71",
+        "transcript": "Great, great. Sorry, I was just on with our data science team. Ran a little bit over.",
+        "startMs": 137895,
+        "endMs": 142095
+    },
+    {
+        "speaker": "Austin Pager",
+        "speakerId": "5c0652f0-b572-44b0-9a44-34614a4b9dec",
+        "transcript": "You're all good. Where are you coming from? Are you California? The Bay?",
+        "startMs": 142247,
+        "endMs": 145779
+    },
+    {
+        "speaker": "farbod",
+        "speakerId": "03e9066d-739c-41d6-9091-5d40af91ca71",
+        "transcript": "We're in Los Angeles actually. So we've been in this office space in Century City for over a year now and actually potentially as soon as Wednesday we're going to be moving into a new office in Culver City, if you guys know where that is. So Los Angeles, broadly.",
+        "startMs": 146599,
+        "endMs": 167080
+    },
+    {
+        "speaker": "Austin Pager",
+        "speakerId": "5c0652f0-b572-44b0-9a44-34614a4b9dec",
+        "transcript": "Nice. I'm assuming it sounds like you were not affected by anything going on.",
+        "startMs": 167500,
+        "endMs": 172388
+    },
+    {
+        "speaker": "farbod",
+        "speakerId": "03e9066d-739c-41d6-9091-5d40af91ca71",
+        "transcript": "Fortunately not. Fortunately not. LA is a big place and so we're, like, physically far enough away from the coast. That were okay. But I know a couple people who like fully lost their homes in the Palisades was pretty brutal. I mean, I saw some drone footage today. I don't know if you guys have seen it flying over all the neighborhoods. It's pretty insane. It looks like a war zone.",
+        "startMs": 172524,
+        "endMs": 196005
+    },
+    {
+        "speaker": "Austin Pager",
+        "speakerId": "5c0652f0-b572-44b0-9a44-34614a4b9dec",
+        "transcript": "Yeah, it's really crazy. It is.",
+        "startMs": 196149,
+        "endMs": 198421
+    },
+    {
+        "speaker": "farbod",
+        "speakerId": "03e9066d-739c-41d6-9091-5d40af91ca71",
+        "transcript": "And Lauren is a familiar face.",
+        "startMs": 198477,
+        "endMs": 201873
+    },
+    {
+        "speaker": "Lauren Becker",
+        "speakerId": "20c61c11-20dd-49b9-ba37-ffa9c9a51920",
+        "transcript": "I know. It's good to see you again. It's great to see you. A long time.",
+        "startMs": 202573,
+        "endMs": 206451
+    },
+    {
+        "speaker": "farbod",
+        "speakerId": "03e9066d-739c-41d6-9091-5d40af91ca71",
+        "transcript": "Yes, yes. Years, maybe. I have no idea. A decade, potentially.",
+        "startMs": 206597,
+        "endMs": 213563
+    },
+    {
+        "speaker": "Lauren Becker",
+        "speakerId": "20c61c11-20dd-49b9-ba37-ffa9c9a51920",
+        "transcript": "I feel like the last that I saw you, you were giving the speech for your graduation or something.",
+        "startMs": 213903,
+        "endMs": 220647
+    },
+    {
+        "speaker": "farbod",
+        "speakerId": "03e9066d-739c-41d6-9091-5d40af91ca71",
+        "transcript": "Oh, yeah, yeah, yeah, yeah. There we go. That was for the whole school. So there you go. You saw that?",
+        "startMs": 220735,
+        "endMs": 226643
+    },
+    {
+        "speaker": "Austin Pager",
+        "speakerId": "5c0652f0-b572-44b0-9a44-34614a4b9dec",
+        "transcript": "I added Lauren to the call and she's like, oh, how do you know? I knew it for. I was like, so.",
+        "startMs": 227183,
+        "endMs": 233089
+    },
+    {
+        "speaker": "farbod",
+        "speakerId": "03e9066d-739c-41d6-9091-5d40af91ca71",
+        "transcript": "That's so funny. That's hilarious. Yeah. So Harry from Canopy is always. He's brought you guys up like a bunch of times actually over the last, you know, six months. And so it's. It's about time that we get. That we get to connect with you. So really excited to learn more. I know Jacob had a chance to introduce himself, but he's our head of sales, so definitely the right person to be on this call. Ishan, who's our cto. I don't. Lauren, if you remember Ishan, he went to. He went to. Sick of it. But he will probably need to be a part of these conversations at some point. But I think for now he's pretty slammed like the next couple of days, but we can kind of continue forward without him.",
+        "startMs": 233161,
+        "endMs": 281163
+    },
+    {
+        "speaker": "Austin Pager",
+        "speakerId": "5c0652f0-b572-44b0-9a44-34614a4b9dec",
+        "transcript": "Cool. Yeah, totally. And it. I saw Harry, Zima, obviously, and I was just telling Jacob I was starting to do some digging on what you guys do and figured like, it sounds like you all have some web based application that most people use today. But as you continue to push enterprise, people are asking about the API and getting it integrated directly into their own system. So Juan, is that correct? Have you guys started selling the API yet?",
+        "startMs": 281463,
+        "endMs": 305229
+    },
+    {
+        "speaker": "farbod",
+        "speakerId": "03e9066d-739c-41d6-9091-5d40af91ca71",
+        "transcript": "That's exactly right. So I don't know, Jacob, Like, I would say the majority. We started kind of moving more towards the enterprise over the last four or five months and have gotten a lot of steam there. And so, you know, the majority of the customers that we are onboarding now or looking to close over the next quarter will be taking advantage of our API or some sort of integration rather than using like a web based version of our platform. They might be just kind of interface with the web based version of the app during like an onboarding period. But outside of that, you know, we're trying to basically stream everything into their existing systems or CRMs. And so sometimes that looks like Salesforce. There is a bank where bank wealth management firm that we're in procurement now that has like, Built out their own custom solution. So it'd like actually be an API based integration. So yeah, long winded way of saying cool.",
+        "startMs": 305381,
+        "endMs": 371076
+    },
+    {
+        "speaker": "Austin Pager",
+        "speakerId": "5c0652f0-b572-44b0-9a44-34614a4b9dec",
+        "transcript": "No, we see it all the time. A lot of our customers start with some sort of application and as they move enterprise, realize people don't want to use your stuff, they want the data but in their own systems. And so we've seen this with like Crunchbase, who's one of our customers, seen this with like gusto. Very common. And obviously if you've never sold an API product, it's, it's challenging because there's, there's not much to see. Right. Just a bunch of data. So what I was thinking, I don't know if you all like have even just like would be curious to see what the web application looks like because I'm assuming all the same functionality is applicable and you.",
+        "startMs": 371816,
+        "endMs": 410464
+    },
+    {
+        "speaker": "Austin Pager",
+        "speakerId": "5c0652f0-b572-44b0-9a44-34614a4b9dec",
+        "transcript": "Yeah, all from the API. And then I can jump in and kind of show you what coast looks like and we'll be honest with each other if we think if it's worth exploring. After kind of we both look at each other's solutions, we do a free proof of concept. So what we would do is we take your APIs, we plug them into coast and then build you out something just to kind of give you an idea of how this might work together.",
+        "startMs": 410520,
+        "endMs": 430952
+    },
+    {
+        "speaker": "farbod",
+        "speakerId": "03e9066d-739c-41d6-9091-5d40af91ca71",
+        "transcript": "Okay, perfect. Yeah. I mean our, our web based dashboard, it's pretty straightforward. I mean it's really, you know, it's what any GUI is, but it really is just a way to kind of view the data that you get from our platform. So we provide, you know, access to like new prospects. We do a lot of data enrichments like advisor prospect matching. What kind of data as a service is kind of, is the way to think about it. And so there are cases, especially with our smaller customers, where we'll have like an individual advisor who wants access to our data. And it doesn't really make sense to integrate with like an existing system that they have or they just like don't have really any existing systems to take advantage of. And so they end up coming onto this dashboard basically to view the net, new prospects or kind of any of the enrichments that they're doing. So just like click into one of these. Everything is basically people data. So it's like contact information, phone number, background. We look at things like if there's a trigger event they're going through. So I don't know what this is. This is a like fundraise.",
+        "startMs": 431104,
+        "endMs": 511625
+    },
+    {
+        "speaker": "Austin Pager",
+        "speakerId": "5c0652f0-b572-44b0-9a44-34614a4b9dec",
+        "transcript": "And so the idea is if I'm in, if I'm a wealth manager. This is a way to source new clients. Right. And get all different types of data.",
+        "startMs": 512205,
+        "endMs": 519668
+    },
+    {
+        "speaker": "farbod",
+        "speakerId": "03e9066d-739c-41d6-9091-5d40af91ca71",
+        "transcript": "Exactly, exactly. Or, you know, upload, like enriching an existing CRM that has, you know, we're, we're working with a firm that has, like, gets like 50,000 leads a month and, you know, comes from a lot of disparate sources. They want to normalize that information and enrich it. And so this is more or less. What it looks like I can actually show you so that you know the, the dashboard I think is a little lighter on the information that it provides. Often, often when we're talking to customers we actually show them like sample data and a spreadsheet. So let me show that to you.",
+        "startMs": 519772,
+        "endMs": 559006
+    },
+    {
+        "speaker": "Austin Pager",
+        "speakerId": "5c0652f0-b572-44b0-9a44-34614a4b9dec",
+        "transcript": "Cool. Yeah, this reminds me something. I was just working with a company called Nihilus. They're very different.",
+        "startMs": 559126,
+        "endMs": 566174
+    },
+    {
+        "speaker": "farbod",
+        "speakerId": "03e9066d-739c-41d6-9091-5d40af91ca71",
+        "transcript": "Yes.",
+        "startMs": 566310,
+        "endMs": 567026
+    },
+    {
+        "speaker": "Austin Pager",
+        "speakerId": "5c0652f0-b572-44b0-9a44-34614a4b9dec",
+        "transcript": "You're familiar with them like for communication?",
+        "startMs": 567546,
+        "endMs": 569298
+    },
+    {
+        "speaker": "farbod",
+        "speakerId": "03e9066d-739c-41d6-9091-5d40af91ca71",
+        "transcript": "Yes. I think we used Nihilist for some automated like email outreach solutions. Yep.",
+        "startMs": 569362,
+        "endMs": 578418
+    },
+    {
+        "speaker": "Austin Pager",
+        "speakerId": "5c0652f0-b572-44b0-9a44-34614a4b9dec",
+        "transcript": "So they have a solution where you can basically embed emails like threads so that they CRMs. So if you go in your CRM and you click an opportunity, you can pull up every email associated with that opportunity. So they want to be able to show what that would look like in the context of a CRM.",
+        "startMs": 578482,
+        "endMs": 593730
+    },
+    {
+        "speaker": "farbod",
+        "speakerId": "03e9066d-739c-41d6-9091-5d40af91ca71",
+        "transcript": "Makes sense. Makes sense. So this is kind of like what the API would return. Here it is in like a structured CSV output. So you know we have things like profile URL name city with net worth estimation. We have a machine learning model in the back end that does these net worth estimations. We scrape things like their company website, we got their addresses, home value age, we get all the various like contact information here with the rankings, phone numbers with the ratings. Again like more kind of like labels and insights based on their wealth trajectory and liquidity status highlights in the profile you see like, you know, you see just like a raw like dictionary here for like trigger event details. And then there are some additional, actually the sample data doesn't have it but there are some additional fields that we have on advisor, prospect matching, priority score reasons and that's also just going to be you know, basically like a JSON. Super cool.",
+        "startMs": 593778,
+        "endMs": 660892
+    },
+    {
+        "speaker": "Austin Pager",
+        "speakerId": "5c0652f0-b572-44b0-9a44-34614a4b9dec",
+        "transcript": "Yeah. So a ton of super enriched data on these people specific to like qualities someone might care about if they wanted to get them to invest with them.",
+        "startMs": 661004,
+        "endMs": 670428
+    },
+    {
+        "speaker": "farbod",
+        "speakerId": "03e9066d-739c-41d6-9091-5d40af91ca71",
+        "transcript": "Exactly.",
+        "startMs": 670532,
+        "endMs": 671452
+    },
+    {
+        "speaker": "Austin Pager",
+        "speakerId": "5c0652f0-b572-44b0-9a44-34614a4b9dec",
+        "transcript": "Super cool. That's awesome. And so you're going to wealth managers selling this as the web based application but like for like you know, JPM or Morgan, like they're going to want this directly in whatever they're using. They're not going to want to introduce a new application.",
+        "startMs": 671644,
+        "endMs": 686460
+    },
+    {
+        "speaker": "farbod",
+        "speakerId": "03e9066d-739c-41d6-9091-5d40af91ca71",
+        "transcript": "That's exactly right. And you know one thing about us is our buyer is often, especially with the larger firms our buyer is different than the end user in a lot of cases. You know, so there's going to be a chief growth officer or a CMO or somebody who leads platform at one of these institutions. So it's important for them to exactly be able to see that kind of integrated.",
+        "startMs": 686588,
+        "endMs": 710182
+    },
+    {
+        "speaker": "Austin Pager",
+        "speakerId": "5c0652f0-b572-44b0-9a44-34614a4b9dec",
+        "transcript": "That's awesome. Yeah, I mean, I'll show you kind of what we do and how I think this could work. And do you guys have public API documentation yet, or. More private. Okay, cool.",
+        "startMs": 710374,
+        "endMs": 723230
+    },
+    {
+        "speaker": "farbod",
+        "speakerId": "03e9066d-739c-41d6-9091-5d40af91ca71",
+        "transcript": "Not yet.",
+        "startMs": 723278,
+        "endMs": 724158
+    },
+    {
+        "speaker": "Austin Pager",
+        "speakerId": "5c0652f0-b572-44b0-9a44-34614a4b9dec",
+        "transcript": "I'd assume it's pretty like, based on what I saw, it's probably like one call, you pass in the name information, return data.",
+        "startMs": 724342,
+        "endMs": 730990
+    },
+    {
+        "speaker": "farbod",
+        "speakerId": "03e9066d-739c-41d6-9091-5d40af91ca71",
+        "transcript": "Exactly.",
+        "startMs": 731078,
+        "endMs": 731986
+    },
+    {
+        "speaker": "Austin Pager",
+        "speakerId": "5c0652f0-b572-44b0-9a44-34614a4b9dec",
+        "transcript": "Sweet. So I think maybe you guys know high level what we do, but it's all around helping companies demo their different API products. And so we sell people this dashboard versus your dashboard. And basically what you do is you can create what we call templates for different use cases of your API. So that's why I was asking if you guys had public docs, because you can plug in like open API specs, postman collections, or just drop in a couple endpoints and then create different templates. So for you guys, I'd imagine like a CRM template. This is like that nihilist one where they wanted to show what it would look like to embed and integrate email threads within a CRM. So if I click a record, I can pull in all the relevant emails. For you guys, I'm imagining a CRM. You go in, you click someone's name and all your the enriched data on that.",
+        "startMs": 733206,
+        "endMs": 779020
+    },
+    {
+        "speaker": "farbod",
+        "speakerId": "03e9066d-739c-41d6-9091-5d40af91ca71",
+        "transcript": "Exactly, exactly. And we use fast API, so it's pretty easy to like do the swagger docs.",
+        "startMs": 779108,
+        "endMs": 786060
+    },
+    {
+        "speaker": "Austin Pager",
+        "speakerId": "5c0652f0-b572-44b0-9a44-34614a4b9dec",
+        "transcript": "Sweet. Easy enough. Yeah. And the idea is you can have templates for the different use cases. So CRM is one we've been talking about. You. I'm sure there's other systems you might want to plug your APIs into. You might even want to like. We've had some people just like demo them in like mock Excel sheets or like internal systems that just look crazy.",
+        "startMs": 786188,
+        "endMs": 806966
+    },
+    {
+        "speaker": "farbod",
+        "speakerId": "03e9066d-739c-41d6-9091-5d40af91ca71",
+        "transcript": "So yeah, just about anything.",
+        "startMs": 807046,
+        "endMs": 809146
+    },
+    {
+        "speaker": "Austin Pager",
+        "speakerId": "5c0652f0-b572-44b0-9a44-34614a4b9dec",
+        "transcript": "And we have a full like WYSIWYG tooling to create these templates which we can get into if you're, if you're curious like how this kind of all comes together. But once the template is built, what's really cool, and this is where we get a lot of usage is let's say, you know, Jacob, obviously you're leading probably growing up the sales team. You're about to hop on a call and you know, someone wants to use your APIs in a more integrated way. You'd come in a coast, you'd say, hey, I want to create a new demo. It's based on this use case. These are just fake ones, but maybe it's the CRM template and you say, hey, we want to sell to, you know, Morgan Stanley or whoever it is, you just type in their name and then what coast will do is actually personalize this demo experience for them. Right. So the UI we showcase will be like a mocked up Morgan Stanley or you can see like, I've done a bunch of banks. And then you can also customize it further. So what's cool too is that these demos can actually be hooked up live to your environments. So what's like, oftentimes a really fun experience is through the demo, you can put in someone's name and actually make a real call. And you can kind of impress them with like how accurate or, you know, fast your APIs are. If you don't want to hook up to like a sandbox. If you don't have like a good production environment that's stable, you can also mock it too. So you don't have to worry about like, you know, it not working real time. We have different options to do that. But other things you can customize, you can, you can add in a bunch of these customization items. You know, like for a lot of our fintechs, they're pitching to people all over the world, so they might want to change the currency depending on the demo. For you guys, I'm sure there's different things you can think about as well. And then you get this demo link. And so, right, the idea is you've created these templates that you can instantly rebrand for anyone you're pitching to. And then you can open up this demo link, present it live, send it out as a follow up, and it's going to visualize how your APIs would create some sort of experience for your prospect. Right. So this is a very different use case. That's why we do the psc. So stay with me. But basically, here's a request where someone's putting in their information, like, Jacob, you want to sign up right on the right. We can actually see this interact, live with the API and then execute something and get data back. Right? So now we're showing, hey, look, when I put in Jacob's name, we're going to create their account, we're going to do KYC on Jacob, we're going to sign them up, and we get some sort of response data and you can kind of chain together a ton of different API calls. So now, like, we fetched their checkings and their savings account, we got transactions. And so for you guys, it would probably be more of like this type of dashboard experience. But I'm imagining like you put in a name, a request fires behind the scenes. It says, look at all this cool data we're pulling. And then you can visualize charts and, you know, stats and all the kind of cool things you guys pull to be able to say, hey, look, we provide all this data. Here's how you could tie it into your systems with a couple API calls. So there's a lot more. Maybe I'll pause there and see if this is kind of tracking for you guys.",
+        "startMs": 809966,
+        "endMs": 979390
+    },
+    {
+        "speaker": "farbod",
+        "speakerId": "03e9066d-739c-41d6-9091-5d40af91ca71",
+        "transcript": "Jacob, what do you think? I think it's interesting.",
+        "startMs": 980860,
+        "endMs": 984996
+    },
+    {
+        "speaker": "jakob",
+        "speakerId": "2dfefb31-5a78-4a90-afe5-18fd88611f69",
+        "transcript": "I think it's clean. I just don't know if we have the demand for this right now. I mean, we've only done one. I can only think of one instance where we had like a Salesforce instance that we showed a client. No one thus far. And for about. If you want to chime in or disagree with me, please do. But no one has asked us for like, what would this look like inside? Or how would this data be presented? It's mostly been, oh, we can hook up to your internal or, oh, we can hook up with Salesforce. That makes sense. Rather than them needing the extra visualization in order to capture what's going on. But I know that sounds kind of negative, but overall, I mean, like, the UI is super clean. It's very. I like the fact that you can update it in real time. So I don't want to sound too negative. I just don't. As of right now, I don't know how much use we would get out of it, but I can certainly see it being impactful if the time did come when a lot of these enterprises are like, okay, like how would this even happen on a more technical API lens?",
+        "startMs": 985028,
+        "endMs": 1043850
+    },
+    {
+        "speaker": "farbod",
+        "speakerId": "03e9066d-739c-41d6-9091-5d40af91ca71",
+        "transcript": "Austin, how long does it take to get set up with this very quickly?",
+        "startMs": 1044670,
+        "endMs": 1050970
+    },
+    {
+        "speaker": "Austin Pager",
+        "speakerId": "5c0652f0-b572-44b0-9a44-34614a4b9dec",
+        "transcript": "I mean it depends on like you guys have sounds like a pretty straightforward use case. We also have tons of like screens that I'd imagine for y'all. Like we already have the Salesforce templates, netsuite, that type of stuff. So I'll answer both your questions or Jacob, you don't have a question, but totally agree. Like if you, if you are not seeing a lot of API deals or like the need like the, the volume that makes a ton of sense or about an. Answer your question more directly. It's all self serve. So like, you know, if you have a very simple use case, you want to plug in your APIs and build it. I mean that's why we do the plc. So we'll build the first one for you. But you know, if, if you have the right person on your team setting it up, I mean it doesn't have to take too long.",
+        "startMs": 1051310,
+        "endMs": 1097372
+    },
+    {
+        "speaker": "farbod",
+        "speakerId": "03e9066d-739c-41d6-9091-5d40af91ca71",
+        "transcript": "Yeah, I mean Jacob is right. Like most of the time we walk them through the web based dashboard where they, they have like a data dictionary and it often is this, you know, they kind of just ask us like, oh, could you also pipe this into our CRM? And we just go yeah. And then that's, that's kind of it. But I would be curious, you know, if we like what I would be, I would be open to basically trying a couple demos using post and seeing like the reception and if there's kind of a different response that we get there when we're able to kind of display it this way and then kind of see what's happening underneath the hood on the API side and how that might translate to the CRM. Because Jacob's right. Like we've only ever had to show a CRM with the layered data like once or twice. Historically. Yeah.",
+        "startMs": 1097444,
+        "endMs": 1150814
+    },
+    {
+        "speaker": "Austin Pager",
+        "speakerId": "5c0652f0-b572-44b0-9a44-34614a4b9dec",
+        "transcript": "My guess, and where I feel like we're all friends here, my guess is what I'd be curious is like in six months from now, if you guys, as you're continuing to push enterprise, get that, ask more, which the. We should reconnect in six months. That would be my. That'd be. What I'm curious about is like as you keep selling to people who want to use the API.",
+        "startMs": 1150910,
+        "endMs": 1167608
+    },
+    {
+        "speaker": "farbod",
+        "speakerId": "03e9066d-739c-41d6-9091-5d40af91ca71",
+        "transcript": "Yeah.",
+        "startMs": 1167672,
+        "endMs": 1168104
+    },
+    {
+        "speaker": "Austin Pager",
+        "speakerId": "5c0652f0-b572-44b0-9a44-34614a4b9dec",
+        "transcript": "And getting different types of buyers, especially those who are not technical or the ones that are more marketing or product focused, that's oftentimes where this can come into play. So at the very least keep us in the back of the mind because if you start to get a lot of those questions, it can start to lead to, you know, longer sales cycles and you know, you're maybe if you grow your sales team, you know, just being able to arm them with a scalable solution to be able to showcase the art of the possible. So totally understand that it might not make sense for now, which is obviously totally cool.",
+        "startMs": 1168200,
+        "endMs": 1198086
+    },
+    {
+        "speaker": "jakob",
+        "speakerId": "2dfefb31-5a78-4a90-afe5-18fd88611f69",
+        "transcript": "And out of curiosity, what is the pricing structure beyond a free proof of concept?",
+        "startMs": 1198746,
+        "endMs": 1203538
+    },
+    {
+        "speaker": "Austin Pager",
+        "speakerId": "5c0652f0-b572-44b0-9a44-34614a4b9dec",
+        "transcript": "Yeah, that's the other thing too. Like we, we are working. We don't have like a great startup package to be completely honest. Like our pricing usually starts at like 20k a year and that's on the lower end.",
+        "startMs": 1203682,
+        "endMs": 1214680
+    },
+    {
+        "speaker": "Austin Pager",
+        "speakerId": "5c0652f0-b572-44b0-9a44-34614a4b9dec",
+        "transcript": "Obviously if you if we were close and it was something you actually found to be really valuable, I'm sure we could work with you on that. But most of our business is. Is like larger enterprises, to be honest.",
+        "startMs": 1214818,
+        "endMs": 1225628
+    },
+    {
+        "speaker": "jakob",
+        "speakerId": "2dfefb31-5a78-4a90-afe5-18fd88611f69",
+        "transcript": "Yeah. No that makes sense. And is the how long is a free proof of concept like you said you would get? We would get one template. Is that. Does it last a month? Is it indefinite? How does that work?",
+        "startMs": 1225692,
+        "endMs": 1237948
+    },
+    {
+        "speaker": "Austin Pager",
+        "speakerId": "5c0652f0-b572-44b0-9a44-34614a4b9dec",
+        "transcript": "Yeah, so we would, what we would do is we'd scope out like your first template. So again I know carpet on the CRM1 but yeah wanted we would build that out. We give you a week turnaround. So we'd scope it out say hey what's the use case? Do we have all the access to the endpoints in production or sandbox environment that we need and then we could turn around in a week, show it to you guys, have it make any small tweaks and we, you know, we'd be happy if you guys wanted to use it on. A couple opportunities with some clear success metrics, you know, in terms of like, hey, what does it look like to, to move forward? And then from there we, our agreements are annual and we kind of scope something out. Yeah, well, it's certainly.",
+        "startMs": 1238132,
+        "endMs": 1281229
+    },
+    {
+        "speaker": "jakob",
+        "speakerId": "2dfefb31-5a78-4a90-afe5-18fd88611f69",
+        "transcript": "And it would be a champagne problem that we're getting asked a ton as to how, you know, our, our data would look in certain instances. So I hope that day comes. That means that we're getting a ton of high level, sophisticated interests, which will be, which would be great.",
+        "startMs": 1281261,
+        "endMs": 1293971
+    },
+    {
+        "speaker": "Austin Pager",
+        "speakerId": "5c0652f0-b572-44b0-9a44-34614a4b9dec",
+        "transcript": "It will, it'll. It'll be, it'll come and we'll be ready for you guys when it does come. But I do like what you guys are doing. It's super cool and I'd imagine you, you hear this a lot. But like, I'm. What, what I think about is given all our companies are API first, they don't even have for the most part the web app. Right.",
+        "startMs": 1294107,
+        "endMs": 1312131
+    },
+    {
+        "speaker": "Austin Pager",
+        "speakerId": "5c0652f0-b572-44b0-9a44-34614a4b9dec",
+        "transcript": "But what's cool is that when you do have the API, you start to see all these different use cases. So like outside of the. Where my head's going is like outside of wealth management use case, like, where else would this data be valuable? And that's oftentimes where companies come to coast too, because it's like you can be speaking to a wealth manager one day, but like, the same data might be valuable for, you know, we work with a lot of KYC companies and underwriting and like, I'm sure a lot of people would like to know kind of some of these projections on individuals and like, I think that's really cool. So I'm curious to see if that expands as well.",
+        "startMs": 1312267,
+        "endMs": 1342607
+    },
+    {
+        "speaker": "farbod",
+        "speakerId": "03e9066d-739c-41d6-9091-5d40af91ca71",
+        "transcript": "Interesting. You guys, you work with Mid desk?",
+        "startMs": 1342695,
+        "endMs": 1344963
+    },
+    {
+        "speaker": "Austin Pager",
+        "speakerId": "5c0652f0-b572-44b0-9a44-34614a4b9dec",
+        "transcript": "Yeah, we work with the desk. We do a lot.",
+        "startMs": 1345323,
+        "endMs": 1347283
+    },
+    {
+        "speaker": "farbod",
+        "speakerId": "03e9066d-739c-41d6-9091-5d40af91ca71",
+        "transcript": "There's a number of canopy portfolio companies you guys work with, right?",
+        "startMs": 1347323,
+        "endMs": 1350211
+    },
+    {
+        "speaker": "Austin Pager",
+        "speakerId": "5c0652f0-b572-44b0-9a44-34614a4b9dec",
+        "transcript": "Yeah. What do we have? We have Mid Desk, Alloy Orem. Who else is in their portfolio? I don't know. I mean, it's perfect for us all.",
+        "startMs": 1350347,
+        "endMs": 1359075
+    },
+    {
+        "speaker": "farbod",
+        "speakerId": "03e9066d-739c-41d6-9091-5d40af91ca71",
+        "transcript": "Is a big one.",
+        "startMs": 1359099,
+        "endMs": 1360099
+    },
+    {
+        "speaker": "Austin Pager",
+        "speakerId": "5c0652f0-b572-44b0-9a44-34614a4b9dec",
+        "transcript": "Yeah, that was a good one. We work primarily with like fintech infrastructure, so payments cards, Broadcast bank as a service, open banking is the big ones.",
+        "startMs": 1360251,
+        "endMs": 1374289
+    },
+    {
+        "speaker": "farbod",
+        "speakerId": "03e9066d-739c-41d6-9091-5d40af91ca71",
+        "transcript": "Okay, awesome. Yeah, awesome.",
+        "startMs": 1374401,
+        "endMs": 1376721
+    },
+    {
+        "speaker": "Austin Pager",
+        "speakerId": "5c0652f0-b572-44b0-9a44-34614a4b9dec",
+        "transcript": "But let's stay in touch, guys. I really like what you guys are doing and you're part of the. I feel like we're canopy. We're not a part of the fund or anything, but maybe friends and family. So I'm sure you guys will come to New York at some point too.",
+        "startMs": 1376817,
+        "endMs": 1389441
+    },
+    {
+        "speaker": "farbod",
+        "speakerId": "03e9066d-739c-41d6-9091-5d40af91ca71",
+        "transcript": "100. Yeah. We'll definitely let you know if there's anything Austin, just like material or something you guys have on the website that we should look through. Through that would be helpful if you could just send it over. Anything at all. Okay, we'll send you.",
+        "startMs": 1389577,
+        "endMs": 1404505
+    },
+    {
+        "speaker": "Austin Pager",
+        "speakerId": "5c0652f0-b572-44b0-9a44-34614a4b9dec",
+        "transcript": "We have, like, a standard deck, too. I could send you that. Perfect.",
+        "startMs": 1404529,
+        "endMs": 1406665
+    },
+    {
+        "speaker": "Austin Pager",
+        "speakerId": "5c0652f0-b572-44b0-9a44-34614a4b9dec",
+        "transcript": "I didn't want to bore you guys with, but, you know, send it your way.",
+        "startMs": 1406729,
+        "endMs": 1410105
+    },
+    {
+        "speaker": "farbod",
+        "speakerId": "03e9066d-739c-41d6-9091-5d40af91ca71",
+        "transcript": "Please do. Okay, awesome. Thank you, guys. Lauren, great to see you.",
+        "startMs": 1410209,
+        "endMs": 1413737
+    },
+    {
+        "speaker": "Lauren Becker",
+        "speakerId": "20c61c11-20dd-49b9-ba37-ffa9c9a51920",
+        "transcript": "Yeah, good to see you.",
+        "startMs": 1413825,
+        "endMs": 1414793
+    },
+    {
+        "speaker": "jakob",
+        "speakerId": "2dfefb31-5a78-4a90-afe5-18fd88611f69",
+        "transcript": "Have a good one. Okay.",
+        "startMs": 1414833,
+        "endMs": 1415753
+    }
+]

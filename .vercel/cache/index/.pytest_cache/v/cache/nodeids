@@ -1,0 +1,23 @@
+[
+  "test_setup.py::test_environment",
+  "test_url_validation.py::test_invalid_url",
+  "test_url_validation.py::test_url_without_query",
+  "test_url_validation.py::test_valid_url",
+  "tests/test_html_parsing.py::test_fetch_and_parse_html_no_meta",
+  "tests/test_html_parsing.py::test_fetch_and_parse_html_success",
+  "tests/test_json_parsing.py::test_parse_transcript_json_missing_data",
+  "tests/test_json_parsing.py::test_parse_transcript_json_success",
+  "tests/test_setup.py::test_environment",
+  "tests/test_speaker_extraction.py::test_extract_speaker_data_missing",
+  "tests/test_speaker_extraction.py::test_extract_speaker_data_success",
+  "tests/test_transcript_assembly.py::test_assemble_transcript_empty",
+  "tests/test_transcript_assembly.py::test_assemble_transcript_from_meta_tag",
+  "tests/test_transcript_assembly.py::test_assemble_transcript_success",
+  "tests/test_transcript_assembly_endpoint.py::test_assemble_transcript_endpoint_fetch_error",
+  "tests/test_transcript_assembly_endpoint.py::test_assemble_transcript_endpoint_invalid_url",
+  "tests/test_transcript_assembly_endpoint.py::test_assemble_transcript_endpoint_missing_url",
+  "tests/test_transcript_assembly_endpoint.py::test_assemble_transcript_endpoint_success",
+  "tests/test_url_validation.py::test_invalid_url",
+  "tests/test_url_validation.py::test_url_without_query",
+  "tests/test_url_validation.py::test_valid_url"
+]

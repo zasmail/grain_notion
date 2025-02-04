@@ -1,0 +1,3 @@
+{
+  "tests/test_transcript_assembly.py::test_assemble_transcript_from_meta_tag": true
+}
