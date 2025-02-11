@@ -7,12 +7,13 @@ import pdb;
 
 app = Flask(__name__)
 
-# Initialize Anthropic client; the API key is retrieved from environment variables,
-# falling back to the provided key for demonstration purposes.
-ANTHROPIC_API_KEY = os.environ.get(
-    "ANTHROPIC_API_KEY",
-    "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"
-)
+# Load the Anthropic API key from secrets.py.
+try:
+    from secrets import ANTHROPIC_API_KEY
+except ImportError:
+    # Fallback to an environment variable.
+    ANTHROPIC_API_KEY = os.environ.get("ANTHROPIC_API_KEY")
+
 client = anthropic.Anthropic(api_key=ANTHROPIC_API_KEY)
 
 def load_prompts():
