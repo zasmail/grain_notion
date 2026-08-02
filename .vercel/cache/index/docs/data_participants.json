@@ -1,0 +1,4 @@
+{
+    "participants": "confirmed_attendee: False\n        email: eshan@cashmereai.com\n        name: eshan\n        scope: external\n\n        confirmed_attendee: True\n        email: jakob@cashmereai.com\n        name: jakob\n        scope: external\n\n        confirmed_attendee: True\n        email: None\n        name: Jakob's Grain Recorder\n        scope: unknown\n\n        confirmed_attendee: True\n        email: austin@trycoast.com\n        name: Austin Pager\n        scope: internal\n\n        confirmed_attendee: True\n        email: lauren@trycoast.com\n        name: Lauren Becker\n        scope: internal\n\n        confirmed_attendee: True\n        email: farbod@cashmereai.com\n        name: farbod\n        scope: externaleshan,jakob,Jakob's Grain Recorder,Austin Pager,Lauren Becker,farbod"
+}
+  

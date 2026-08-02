@@ -14,3 +14,6 @@ __pycache__/
 # VS Code
 .vscode/
 
+# Ignore secret keys and local credentials
+secrets.py
+

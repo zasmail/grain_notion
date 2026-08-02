@@ -7,16 +7,15 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 ## [Unreleased]
 
 ### Added
-- Implemented `/transcript/assemble` endpoint in `api/index.py` to process URLs, fetch JSON data, and return structured transcripts.
-- Added tests in `tests/test_transcript_assembly_endpoint.py` to validate the functionality of the `/transcript/assemble` endpoint, including handling of valid and invalid URLs.
-- Updated project plan in `docs/project_plan.md` to reflect the completion of Step 7 and outline future steps.
+- Enhanced `/transcript/assemble` endpoint to include metadata collection for chapters, outcomes, and action items.
+- Updated tests in `tests/test_transcript_assembly_endpoint.py` to validate the inclusion of metadata in the response.
+- Planned a new endpoint to process structured transcripts through Anthropic's API for generating TLDR and meeting outcomes.
 
 ### Changed
-- Refactored URL validation and JSON fetching logic into a shared function `validate_and_fetch_url` in `api/index.py`.
-- Adjusted import paths in `api/index.py` to ensure correct module loading.
+- Refactored the `assemble_transcript_endpoint` in `api/index.py` to integrate metadata extraction and return a comprehensive response.
 
 ### Fixed
-- Resolved issues with incorrect module imports that caused test failures.
+- Improved error handling in the `/transcript/assemble` endpoint to manage invalid URLs and JSON parsing errors more effectively.
 
 ---
 
