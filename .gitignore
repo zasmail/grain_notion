@@ -17,3 +17,6 @@ __pycache__/
 # Ignore secret keys and local credentials
 secrets.py
 
+
+# Vercel build cache
+.vercel/

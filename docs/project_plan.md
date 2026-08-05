@@ -1,10 +1,14 @@
 # Project Plan
 
 > **Changelog (latest update):**  
-> - Completed Step 7: Add endpoint for transcript assembly.  
-> - Incorporated answers to open questions regarding test framework, data storage, secrecy, concurrency, and the URL replacement logic.  
-> - Added "Plan" section to outline how we'll address these points in our implementation approach.
-> - Added a new "Step-by-Step Implementation Plan" section to provide a more detailed project roadmap, while preserving the existing high-level "Plan" section.
+> - Completed Step 8: Enhanced the `/transcript/assemble` endpoint to include metadata collection.  
+> - Updated the project plan to reflect the completion of Step 8 and outline future steps.
+# Last Update: 2/11/2025
+I got the prompts to kind of work running locally, but I did not complete the API step. I'm unsure if I should have the responses go externally or to an internal DB.
+
+I want to focus on getting context of coast/not coast into the transcript before I do the AI processing.
+
+Once I have that I need to clean up the prompts and then I can do the API step.
 
 *Important: Any time a change is made to the project, please update the changelog.*
 
@@ -206,12 +210,12 @@ Below is a more detailed, step-by-step plan to guide development:
    - **Status**: Completed
 
 8. **Collect Metadata**  
-   - Functionality to the transcript endpoint to collect chapters, outcomes, and action items.
+   - Enhanced the transcript endpoint to collect chapters, outcomes, and action items.
      - Chapters can be found under "intelligence" > "chapters" > "data". Keep the format unchanged from the original data.
      - Outcomes can be found under "intelligence" > "summaryTabSections" where the "section" > "title" is "Outcomes". Return the "data" array under "outcomes".
      - Action items can be found under "intelligence" > "summaryTabSections" where the "section" > "title" is "Action Items". Return the "data" array under "action_items".
    - Rely on the data from "(meta_tag.json)" to test the metadata collection.
-   - **Status**: Outstanding
+   - **Status**: Completed
 
 9. **Structured Output Assembly**  
    - Write tests checking that each segment's JSON format matches the schema.  
@@ -234,6 +238,13 @@ Below is a more detailed, step-by-step plan to guide development:
     - Deploy to Vercel once the core functionality and tests pass consistently.  
     - Verify that the serverless environment resolves dependencies correctly.  
     - Conduct final checks with real Grain URLs to confirm everything is working as expected.
+    - **Status**: Outstanding
+
+13. **New Endpoint for AI Processing**  
+    - Create a new endpoint that accepts the structured transcript as input.
+    - Use Anthropic's API to generate a TLDR and meeting outcome from the transcript.
+    - Reference `ai_output_sample.json` for the expected output format.
+    - Securely handle the API key (lives in `secrets.py`, gitignored — never in this doc).
     - **Status**: Outstanding
 
 > **Next Steps**: Continue to update this "Step-by-Step Implementation Plan" as new insights arise or as we adjust tasks in response to testing feedback.
